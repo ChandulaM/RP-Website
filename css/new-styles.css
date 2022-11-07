@@ -1,0 +1,49 @@
+.kissjs-title-logo {
+    margin: auto;
+    height: 120px;
+    width: 220px;
+}
+
+
+@media screen and (min-width: 300px){
+    .main-subtitle{
+        font-size: 20px;
+        color: #F101D9;
+        line-height: normal;
+        margin-bottom: 1%;
+    }
+    .main-subtitle-2{
+        font-size: 20px;
+        color: #fcdef9;
+        line-height: normal;
+    }
+    
+}
+
+@media screen and (min-width: 800px){
+    .main-subtitle{
+        font-size: 30px;
+        color: #F101D9;
+        line-height: normal;
+        margin-bottom: 1%;
+    }
+    .main-subtitle-2{
+        font-size: 20px;
+        color: #fcdef9;
+        line-height: normal;
+    }
+}
+
+@media screen and (min-width: 950px){
+    .main-subtitle{
+        font-size: 50px;
+        color: #F101D9;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .main-subtitle-2{
+        font-size: 30px;
+        color: #fcdef9;
+        line-height: normal;
+    }
+}

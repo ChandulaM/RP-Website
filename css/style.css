@@ -403,9 +403,9 @@ h6 .h1 .em,
 .h1 .h6 .em, .h6 .h2 .em, .h2 .h6 .em, .h6 .section-team .team-members li .team-member-title .em, .section-team .team-members li .team-member-title .h6 .em, .h6 .h3 .em, .h3 .h6 .em, .h6 .section-brand .guidelines .columns .colors ul li .em, .section-brand .guidelines .columns .colors ul li .h6 .em, .h6 .h4 .em, .h4 .h6 .em, .h6 .h5 .em, .h5 .h6 .em, .h6 .em {
   display: block;
   font-family: "dubielitalic", Arial, sans-serif;
-  font-size: 0.9em;
+  font-size: 0.6em;
   text-transform: none;
-  color: #919799;
+  color: #e5ecee;
 
 }
 
@@ -2250,12 +2250,12 @@ margin-left: 15px;
 /* Sections */
 /* Intro */
 .section-intro {
-  background-image: url(../images/intro_bg.jpg);
+  background-color:black;
+  /* background-image: url(../images/intro_bg.jpg); */
   position: relative;
   width: 100%;
   height: 12.5em;
   background-size: cover;
-  background-repear: no-repeat;
   text-align: center;
 }
 .section-intro .content .container-template {
