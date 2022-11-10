@@ -1392,7 +1392,7 @@ margin-left: 15px;
 }
 /* Statistics */
 .stastistical-part .section-seperator{
-  background-image: url(../images/online_statistics.jpg);
+  background-image: url(../images/scope.png);
 }
 
 .stastistical-part .content {
@@ -1961,6 +1961,11 @@ margin-left: 15px;
 .upper-line{
   margin-top: -60px !important;
 }
+
+.timeline-part .section-seperator{
+  background-image: url(../images/milestones2.jpg);
+}
+
 .timeline-part .intro p:first-child {
   font-size: 1.5em;
   margin-bottom: 1.3em;
@@ -2694,7 +2699,7 @@ margin-left: 15px;
   }
 }
 .pricing-part .section-seperator{
-  background-image: url(../images/appartment.jpg);
+  background-image: url(../images/presentation.jpg);
   }
   .pricing-slide-text{
     font-size:22px;

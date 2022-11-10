@@ -17,7 +17,9 @@
         color: #fcdef9;
         line-height: normal;
     }
-    
+    #des01{
+        display: none;
+       }
 }
 
 @media screen and (min-width: 800px){
@@ -32,6 +34,10 @@
         color: #fcdef9;
         line-height: normal;
     }
+
+   #des01{
+    display: none;
+   }
 }
 
 @media screen and (min-width: 950px){
@@ -46,4 +52,8 @@
         color: #fcdef9;
         line-height: normal;
     }
+
+    #des01{
+        display:block;
+       }
 }
