@@ -20,6 +20,10 @@
     #des01{
         display: none;
        }
+    #lstt{
+        height: 120px;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 800px){
@@ -38,6 +42,10 @@
    #des01{
     display: none;
    }
+   #lstt{
+    height: 120px;
+    width: 100%;
+}
 }
 
 @media screen and (min-width: 950px){
@@ -56,4 +64,9 @@
     #des01{
         display:block;
        }
+
+       #lstt{
+        height: 300px;
+        width: 100%;
+    }
 }
