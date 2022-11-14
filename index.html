@@ -234,7 +234,7 @@
 
 							<li class="selected"><a href="#">Literature Survey</a></li>
 							<li><a href="#">Research Gap</a></li>
-							<li><a href="#">Research Problem</a></li>
+							<li><a href="#">Research Problem</a></ 	li>
 							<li><a href="#">Research Objectives</a></li>
 							<li><a href="#">Methodology</a></li>
 							<li><a href="#">Technologies Used</a></li>
@@ -259,9 +259,33 @@
 									<div class="pricing-slide-content content-template">
 
 										<ul>
-											<li class="pricing-slide-text"> <i class="icon-compose"></i>
-											</li>
+											In order to begin the development of the framework various documentation and research 
+											were looked into in order to get a better understanding of how all the components in a 
+											SPA framework come together in order to create applications.											 
 										</ul>
+										<ul>
+											When taking into consideration the syntax of the framework, the syntax cannot simply be read
+											and compiled by the browser. The syntax must first be converted into a valid JavaScript object.
+											This can be done using a trans-compiler, and a preset based on the babel core must be created to accomplish this [1].
+										</ul>
+										<ul>
+											Regarding the change detection mechanism of the framework, there are various methods available. The
+											most commonly used ones are Key-Value Observation, Dirty Checking and Virtual DOM [2]. Each method was 
+											found to have its own advantages and disadvantages however, the virtual DOM method proved to be the most
+											effective method overall [3].
+										</ul>
+										<ul>
+											Various researches were referred to for the creation of the language support for the framework, and the most
+											helpful of resources were on Ballerinalang and its Language Server [4]. Using a Language Server Protocol
+											along with the Language Server, the extension for the framework could be used.
+										</ul>
+										[1] E. Wohlgethan, “Supporting Web Development Decisions by Comparing Three Major JavaScript Frameworks: Angular, React and Vue.js,” Hamburg University of Applied Sciences, 2018
+										<p>&nbsp;</p>
+										[2] E. Saks, “JavaScript Frameworks: Angular vs React vs Vue.,” University of Applied Sciences, 2019
+										<p>&nbsp;</p>
+										[3] D. Muyldermans, “How does the virtual DOM compare to other DOM update mechanisms in JavaScript frameworks?,” 2019
+										<p>&nbsp;</p>
+										[4] M. Ranasinghe, “A Practical Guide for Language Server Protocol,” medium, Oct. 22, 2021. https://medium.com/ballerina-techblog/practical-guide-for-the-language-server-protocol-3091a122b750
 										<p>&nbsp;</p>
 									</div>
 								</div>
@@ -278,8 +302,20 @@
 										
 										<ul>
 											<li class="pricing-slide-text"> <i class="icon-compose"></i>
+												The main drawback identified from the current frameworks is their lack of 
+												a simplistic state management solution. Usually these have to be added as an
+												extra dependency, and are usually quite complex for new developers to use.
 											</li>
-
+											<li class="pricing-slide-text"> <i class="icon-compose"></i>
+												Most modern frameworks also do not have a direct method to identify static elements
+												in the DOM. Identifying these could help reduce re-rendering times, thereby making the application 
+												more efficient.
+											</li>
+											<li class="pricing-slide-text"> <i class="icon-compose"></i>
+												As it is, no language support exists for KissJS. This would mean that developers working of .kjs 
+												files would face difficulty. Therefore, there is a need for an extension that would help in the 
+												development of KissJS applications.
+											</li>
 										</ul>
 										<p>&nbsp;</p>
 									</div>
@@ -360,7 +396,6 @@
 											<p style="font-size: 20px; text-align:justify;">
 												In order to achieve the main functionality of the framework, certain sub-objectives can be drawn out in order to fulfill the project’s requirements. These sub-objectives are as follows:
 •	Implementing state management
-•	//state management stuff
 •	Creation of the virtual DOM from the trans-compiled JavaScript object
 •	Implementation of a diff algorithm to compute the differences between the previous and new virtual DOMs in order to update the original DOM.
 •	Mechanism to map the virtual DOM nodes to the nodes in the DOM.
@@ -385,11 +420,32 @@
 									</div>
 
 									<div class="pricing-slide-content content-template">
-										
 										<ul>
-											<li class="pricing-slide-text"> <i class="icon-compose"></i>
-											</li>
+											The main outcome of this project is to create a new frontend framework for SPA development.
+											This framework would come with an in-built state management system that users can learn and 
+											use easily. In addition to this the main components of the framework are, a syntax for the framework,
+											change detection mechanism and a language extension to support development in code editors.
 										</ul>
+										<ul>
+											At a high-level, the way the framework operates is as follows. Once the user has created his components
+											with the KissJS syntax, our custom trans-compiler will convert that into JavaScript objects that can be 
+											understood by the browser. These objects are passed into the change detection part of the framework, and here
+											they will be used to create a virtual DOM and then rendered on the screen.
+										</ul>
+										<ul>Once any changes have been made, the virtual DOM will be traversed in order to identify which nodes have
+											undergone change. The duty of the change detection mechanism is to identify these nodes and only re-render them.
+											A diff algorithm used with the virtual DOM will accomplish the task of traversing and identifying changes.
+											When the changes are identified they will be reflected in the DOM.
+										</ul>
+										<ul>
+											And using the KissJS language support, the client (user machine) will be communicating with the KissJS
+											language server in order to aid in development. The extension will provide various functionalities such as 
+											snippet completion, bracket highlighting, error highlighting, etc.
+										</ul>
+										<ul>
+											Below is the high-level overview diagram of the framework.
+										</ul>
+										<img src="images/system_overview.png" alt="">
 									</div>
 								</div>
 
@@ -402,20 +458,16 @@
 									</div>
 
 									<div class="pricing-slide-content content-template">
-										
+
+										<div style="display: flex; gap: 10px; margin-top: 5px;"> 
+
+											<img src="images/Typescript_logo.png" width="50px" height="50px">
+											<img src="images/babel.png" width="150px" height="50px">
+											<img src="images/webpack.png" width="145px" height="50px">
+											<img src="images/Visual_Studio_Code.png" width="50px" height="50px">
+											<img src="images/json_logo_icon_168490.png" width="120px" height="50px">
+										</div>
 										<ul>
-											<li class="pricing-slide-text"> <i class="icon-compose"></i>
-												For Framework Syntax
-											</li>
-											<li class="pricing-slide-text"> <i class="icon-compose"></i>
-												For Framework Rendering
-											</li>
-											<li class="pricing-slide-text"> <i class="icon-compose"></i>
-												For Framework State Management
-											</li>
-											<li class="pricing-slide-text"> <i class="icon-compose"></i>
-												For Framework Language Support
-											</li>
 											<img id = "lstt" src="images/toolstech.png" width="500px" height="500px">
 										</ul>
 									</div>
@@ -581,7 +633,7 @@
 										Research Paper</a>
 								</li>
 								<li>
-									<i class="icon-task-check"></i> <a href="docs/Poster_2022-069.jpg" download><img
+									<i class="icon-task-check"></i> <a href="docs/Poster_2022-069.zip" download><img
 											src="images/doc.png" alt="Research Poster" width="50" height="60">
 										Research Poster</a>
 								</li>
