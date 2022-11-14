@@ -2695,7 +2695,7 @@ margin-left: 15px;
 /* Pricing */
 @media (min-width: 1020px) {
   .pricing-container {
-    height: 900px;
+    height: 1500px;
   }
 }
 .pricing-part .section-seperator{
